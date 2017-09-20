@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "grubdragon.github.io()"
+date:   2016-03-30 19:45:31 +0530
+categories: jekyll update
+---
+
+{% highlight bash %}
+wget https://github.com/hemangsk/Gravity/archive/master.zip 
+unzip master.zip
+mv Gravity-master grubdragon.github.io
+cd grubdragon.github.io
+git init
+git add .
+git commit -m "Init"
+git remote add origin https://github.com/grubdragon/grubdragon.github.io.git
+git push origin master
+{% endhighlight %}
+
+
+[jekyll-docs]: http://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/
