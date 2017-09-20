@@ -15,6 +15,6 @@ twitter_username: #hemang_kumar
 github_username: grubdragon
 paginate: 5
 
-gems: [jekyll-paginate, kramdown, github-pages]
+gems: [jekyll-paginate, kramdown]
 # Build settings
 markdown: kramdown
