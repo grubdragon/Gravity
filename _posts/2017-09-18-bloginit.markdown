@@ -7,7 +7,9 @@ categories: jekyll update
 
 Hello World!
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mauris dui, lacinia eu faucibus sit amet, convallis eget urna. Mauris tristique ex diam, eu interdum leo pulvinar at. Morbi ullamcorper tincidunt mattis. Pellentesque id est posuere orci vestibulum tincidunt sed non justo.
+The creation of this blog marks the end of an era. An era which will be known to man as one of the longest. A winter that never had an end in sight!
+
+Talking about the time I was procrastinating making my own Jekyll blog ofcourse.
 
 {% highlight bash %}
 wget https://github.com/hemangsk/Gravity/archive/master.zip 
@@ -21,7 +23,4 @@ git remote add origin https://github.com/grubdragon/grubdragon.github.io.git
 git push origin master
 {% endhighlight %}
 
-
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+Q1ux5PPv
