@@ -6,19 +6,19 @@ categories: [python, tutorial, rattlesnake]
 ---
 Being a part of the Web and Coding Club (WnCC), has its perks, and you can often find yourself doing some randomly productve things for it.
 
-Every year WnCC organizes [rattlesnake][rattlesnake], an event introducing non/inexperienced coders to python as a tool for automating what they want.
+This blog post is in tandem with WnCC's  [rattlesnake][rattlesnake], a workshop introducing non/inexperienced coders to python as a tool for automating what they want.
 
-`Instead of the traditional approach where beginners are made to learn language elements first without making anything substantial, we try to build something in every problem.`
+_"Instead of the traditional approach where beginners are made to learn language elements first without making anything substantial, we try to build something in every problem."_
 <hr>
   
 ### ENOUGH ABOUT THAT! LET'S GET DOWN TO WORK!
-Objective: To make a python program which can take an srt file and play it according to the timestamps in the file.
+*Objective:* To make a python program which can take an srt file and play it according to the timestamps in the file.
 
-Assumption: We will use a lyrics srt file, i.e. none of the subtitles will overlap in our case
+*Assumption:* We will use a lyrics srt file, i.e. none of the subtitles will overlap in our case
 
 Let's start! Open a blank `subs-easy.py` file for yourself. Let's put our task in perspective: we need to: 1) Open/decode an srt file 2) Implement logic to store delays between subs and 3) Display it at the appropriate time. Might seem a bit scary in the start, but don't worry we'll deal with it!  
 
-So, first things first, `How to open an srt file in python?` Google it. Easy, right?
+So, first things first, 'How to open an srt file in python?' Google it. Easy, right?
 Well, the first result is `pysrt`. It does all the hard work for us, so let's use it! (essential part of programming is "Don't reinvent the wheel" which I often inaccurately subtitute as "Why the hell are you working so hard?")  
 
 Scroll below to see the installation part. Plain and simple(If you didn't understand it, you should look up the [Beginner's Guide to Python][Beginner's Guide to Python] on the [WnCC wiki][WnCC wiki]).  
@@ -60,7 +60,9 @@ So now that we have all the data we need, we simply need to display stuff. Here 
 
 ### And we are done!
 
-Thanks for reading! Be sure to drop by once in a while, you might learn a thing or two. You could comment in the below section, start a discussion and/or definitely tell me my mistakes. 
+Thanks for reading! Be sure to drop by once in a while, you might learn a thing or two. You could comment in the below section, start a discussion and/or definitely tell me my mistakes.[Comment section in progress, till then you can contact me over 
+
+If you want to refer to a typed out solution to the problem, please look for `subs_easy.py` in  
 
 [rattlesnake]: http://wncc-iitb.org/wiki/index.php/Rattlesnake
 [WnCC wiki]:   http://wncc-iitb.org/wiki/index.php
