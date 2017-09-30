@@ -36,9 +36,9 @@ print first_sub.end.minutes
 #=> prints '5' to STDOUT.
 {% endhighlight %}
 
-### Self-note: Looking through the entire usage, if I ever make a python video player, I might give this lib a whirl.
+> Self-note: Looking through the entire usage, if I ever make a python video player, I might give this lib a whirl.
 
-I guess we've solved part 1! Pysrt easily parses the srt file! Time to add code! There isn't much to add here though; just some import statements, a line to open the subtitles. Now for part 2: `Implementing logic..ummm...`
+I guess we've solved part 1! Pysrt easily parses the srt file! Time to add code! There isn't much to add here though; just some import statements, a line to open the subtitles. Now for part 2: <b>Implementing logic to..ummm...</b>
 
 Yes, so, what I mean by part 2 is that we'd need the difference in times between consecutive subtitles. Also, we'd need the amount of time a subtitle should be displayed. So how can we approach the problem? Lets start off with a new function, that can scale your time in hours, minutes, seconds and milliseconds to a common metric. Lets say, to seconds.  
 
@@ -51,7 +51,8 @@ Now that we have this data, our next step is to take the delays I've been talkin
 `displayFor = scale_to_seconds(subs[i].end)-scale_to_seconds(subs[i].start)`
 
 And make lists out of it.
-### Stupid Pro tip: You don't need four lists, you could just use the two lists for delays, the first two are redundant
+> Stupid Pro tip: You don't need four lists, you could just use the two lists for delays, the first two are redundant
+
 Hey, but wait! You didn't realize something! For i=0, `delayBefore` tries to access subs[-1], which is an error! Figure this one out yourself, okay?
 
 You know what? We're already kinda done, only thing left is display of lyrics! Time to add some code, everything that's relevant to storage and processing of delays!
@@ -62,8 +63,9 @@ So now that we have all the data we need, we simply need to display stuff. Here 
 
 Thanks for reading! Be sure to drop by once in a while, you might learn a thing or two. You could comment in the below section, start a discussion and/or definitely tell me my mistakes.[Comment section in progress, till then you can contact me over 
 
-If you want to refer to a typed out solution to the problem, please look for `subs_easy.py` in  
+If you want to refer to a typed out solution to the problem, please look for `subs_easy.py` in [this][random-python-scripts] repo.
 
 [rattlesnake]: http://wncc-iitb.org/wiki/index.php/Rattlesnake
 [WnCC wiki]:   http://wncc-iitb.org/wiki/index.php
-[Beginner's Guide to Python]: https://talk.jekyllrb.com/
+[Beginner's Guide to Python]: http://wncc-iitb.org/wiki/index.php/Python_for_Beginners
+[random-python-scripts]: https://github.com/grubdragon/Random-Python-Scripts
