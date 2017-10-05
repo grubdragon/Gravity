@@ -6,13 +6,6 @@ permalink: /about/
 tagline: "I'm surprised you wanna know more"
 ---
 
-<br>
-
-<div class="download">
-<center>
-  <iframe src="https://ghbtns.com/github-btn.html?user=grubdragon&type=follow&size=large" frameborder="0" scrolling="0" width="200px" height="30px"></iframe>
-</center>
-</div>
 <!--
 <center>GitHub Repository
 <a href="http://github.com/hemangsk/Gravity"><p><i class="fa fa-github"></i></p></a>
@@ -29,5 +22,10 @@ tagline: "I'm surprised you wanna know more"
  <p>
  Catch me on <a href="http://facebook.com/aryan.agal.30"><i class="fa fa-facebook"></i></a> / <a href="http://github.com/grubdragon"><i class="fa fa-github"></i></a> / <a href="mailto:aryanagal98@gmail.com"><i class="fa fa-envelope-o"></i></a> and drop me a line if you want to work with me on something, or just chat, I'd be happy to hear from you!
  </p>
+</div>
+<div class="download">
+<table>
+<td><iframe style="float:left;" src="https://ghbtns.com/github-btn.html?user=grubdragon&type=follow&size=large" frameborder="0" scrolling="0" width="200px" height="30px"></iframe></td><td><a  style="float:left;" href="/resume.pdf" class="myButton">Resume</a></td>
+</table>
 </div>
 
