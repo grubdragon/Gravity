@@ -25,7 +25,7 @@ tagline: "I'm surprised you wanna know more"
 </div>
 <div class="download">
 <table>
-<td><iframe style="float:left;" src="https://ghbtns.com/github-btn.html?user=grubdragon&type=follow&size=large" frameborder="0" scrolling="0" width="200px" height="30px"></iframe></td><td><a  style="float:left;" href="/resume.pdf" class="myButton">Resume</a></td>
+<td style="padding-right:10px;"><iframe style="float:left;" src="https://ghbtns.com/github-btn.html?user=grubdragon&type=follow&size=large" frameborder="0" scrolling="0" width="200px" height="30px"></iframe></td><td style="padding-right:2px;"><a  style="float:left;" href="/resume.pdf" class="myButton">Resume</a></td>
 </table>
 </div>
 
